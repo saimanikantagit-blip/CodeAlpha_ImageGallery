@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <meta name="description" content="A considered collection of photographs exploring nature, architecture, travel and portraiture.">
+  <title>Stillform — Image Gallery</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Stillform home"><span class="brand-mark" aria-hidden="true">S</span><span>STILLFORM<span class="brand-dot">.</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#gallery">Gallery</a><a href="#about">About</a>
+    </nav>
+    <a class="header-note" href="#gallery">A visual journal <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A COLLECTION OF MOMENTS · 2025—26</p>
+        <h1 id="hero-title">Finding beauty<br>in the <em>in-between.</em></h1>
+        <div class="hero-bottom"><p>A visual journal of places, people and quiet details.<br>Collected slowly, seen with intention.</p><a class="explore-link" href="#gallery"><span class="explore-icon" aria-hidden="true">↓</span> EXPLORE THE GALLERY</a></div>
+      </div>
+      <figure class="hero-image">
+        <img alt="" fetchpriority="high">
+        <figcaption><span>01 / LANDSCAPE STUDY</span><span>DOLOMITES, ITALY · 2025</span></figcaption>
+      </figure>
+      <span class="hero-index" aria-hidden="true">01 — 04</span>
+    </section>
+
+    <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="gallery-title">Selected frames<span class="heading-period">.</span></h2></div><p class="section-aside">A study in light, texture<br>and the art of looking closer.</p></div>
+      <div class="gallery-toolbar"><div class="filters" role="group" aria-label="Filter photographs by category" id="filters"></div><p class="image-count" id="image-count" aria-live="polite"></p></div>
+      <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
+      <noscript><p class="noscript-note">This gallery needs JavaScript enabled to display its photographs.</p></noscript>
+    </section>
+
+    <section class="about-section" id="about"><p class="eyebrow">A NOTE ON SEEING</p><p class="about-statement">The best photographs don’t just show us a place. They let us <em>feel</em> like we were there.</p><div class="about-meta"><span>AN ONGOING VISUAL JOURNAL</span><span>MADE WITH CURIOSITY &amp; CARE</span></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">S</span><span>STILLFORM<span class="brand-dot">.</span></span></a><p>Image Gallery <span>·</span> CodeAlpha Frontend Development Internship</p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photograph viewer" aria-hidden="true" inert>
+    <button class="lightbox-close" type="button" aria-label="Close image viewer">CLOSE <span aria-hidden="true">×</span></button>
+    <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Previous image"><span aria-hidden="true">←</span></button>
+    <figure class="lightbox-figure"><img id="lightbox-image" src="" alt=""><figcaption><div><p id="lightbox-category"></p><h2 id="lightbox-title"></h2></div><p class="lightbox-counter" id="lightbox-counter" aria-live="polite"></p></figcaption></figure>
+    <button class="lightbox-arrow lightbox-next" type="button" aria-label="Next image"><span aria-hidden="true">→</span></button>
+    <p class="lightbox-hint">USE ← → TO EXPLORE <span>·</span> ESC TO CLOSE</p>
+  </div>
+</body>
+</html>
