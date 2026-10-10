@@ -2,6 +2,8 @@
 
 A responsive, editorial-style photography gallery created for the **CodeAlpha Frontend Development Internship**. Stillform presents a small visual journal of nature, architecture, travel and portrait photography, with category filters and an accessible full-screen viewer.
 
+**Live demo:** [Stillform Image Gallery](https://saimanikantagit-blip.github.io/CodeAlpha_ImageGallery/)
+
 ## Features
 
 - Eighteen photographs organized across four categories.
